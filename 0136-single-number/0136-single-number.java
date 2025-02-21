@@ -1,9 +1,13 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int tmp =0;
-        for(int each: nums){
-            tmp = tmp ^ each;
+        Arrays.sort(nums);
+        if(nums.length == 1){
+            return nums[0];
         }
-        return tmp;
+        int ans = 0;
+        for(int i : nums){
+            ans = ans ^ i;
+        }
+        return ans;
     }
 }
