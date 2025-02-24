@@ -3,17 +3,16 @@ class Solution {
         if(n == 0){
             return 0;
         }
+        if(n == 5){
+            return 1;
+        }
 
         int ans =0;
         int tmp = 5;
         int pow = 1;
-        for(int i = 1; i <= n; i++){
-            if(i / tmp == 5){
-                tmp = i;
-                ans += n/tmp;
-            }if(i % 5 == 0){
-                ans += 1;
-            }
+        while(tmp <= n){
+            ans += n / tmp;
+            tmp = tmp * 5;
         }
         return ans;
     }
