@@ -10,8 +10,8 @@ class Solution {
         for(int i = 1; i <= n; i++){
             if(i / tmp == 5){
                 tmp = i;
-                ans += n/tmp + 1;
-            }else if(i % 5 == 0){
+                ans += n/tmp;
+            }if(i % 5 == 0){
                 ans += 1;
             }
         }
