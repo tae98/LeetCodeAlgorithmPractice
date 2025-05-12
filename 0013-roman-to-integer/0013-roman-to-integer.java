@@ -9,15 +9,15 @@ class Solution {
         roman.put('C', 100);
         roman.put('D', 500);
         roman.put('M', 1000);
-    
-        for(int i =0; i < s.length() -1; i++){
-            if(roman.get(s.charAt(i)) < roman.get(s.charAt(i+1))){
+        
+        int len = s.length();
+        for(int i =0; i < len; i++){
+            if(i < len - 1 && roman.get(s.charAt(i)) < roman.get(s.charAt(i+1))){
                 ans -= roman.get(s.charAt(i));
             }else{
                 ans+= roman.get(s.charAt(i));
             }
         }
-        ans += roman.get(s.charAt(s.length()-1));
         return ans;
     }
 }
