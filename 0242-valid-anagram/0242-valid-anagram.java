@@ -7,14 +7,17 @@ class Solution {
         int[] cnt = new int[26];
 
         for(int i = 0; i < s.length(); i++){
-            //특정 알파벳 cnt상 위치(index)의 값을 s에 등장하면 ++ t에 등장할시 --
+            //특정 알파벳 cnt상 위치(index)의 값을 s에 등장하면 ++ 
             cnt[s.charAt(i) - 'a']++;
-            cnt[t.charAt(i) - 'a']--;
+           
         }
 
-        for(int each : cnt){
-            //초기값이 0이기 떄문에 모든 값들은 anagram일시 0이여야함
-            if(each != 0){
+        for(int i = 0; i < t.length(); i++){
+            //특정 알파벳 cnt상 위치(index)의 값을 t에 등장할시 --
+            cnt[t.charAt(i) - 'a']--;
+            //이미 위에서 s의 알파벳으로 cnt는 업데이트됨
+            //만약 t만 존재하거나 t에 더많이존재할시(anagram X) 값은 < 0
+            if(cnt[t.charAt(i) - 'a'] < 0){
                 return false;
             }
         }
