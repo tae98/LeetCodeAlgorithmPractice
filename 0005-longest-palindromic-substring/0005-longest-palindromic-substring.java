@@ -1,56 +1,38 @@
-public class Solution {
+class Solution {
+    // 전체 문자열에서 발견한 최장 팰린드롬 부분의 시작과 끝 인덱스를 저장
+    int start = 0, end = 0;
+
     public String longestPalindrome(String s) {
-        if (s == null || s.length() == 0) return "";
+        // 문자열의 모든 문자를 중심으로 팰린드롬 확장 시도
+        for (int i = 0; i < s.length(); i++) {
+            // 1. 홀수 길이 팰린드롬 (중심이한글자 i인 경우, 예: "aba")
+            expandAroundCenter(s, i, i);
 
-        // 전처리: 가운데 # 삽입 + 시작/끝 문자로 ^, $
-        String T = preprocess(s);  // 예: "abba" → "^#a#b#b#a#$"
-        int n = T.length();
-        int[] P = new int[n]; // P[i]: 중심 i에서의 반지름
-
-        int center = 0, right = 0;
-        for (int i = 1; i < n - 1; i++) {
-            int mirror = 2 * center - i;
-
-            if (i < right) {
-                P[i] = Math.min(right - i, P[mirror]);
-            }
-
-            // 중심 i에서 확장
-            while (T.charAt(i + 1 + P[i]) == T.charAt(i - 1 - P[i])) {
-                P[i]++;
-            }
-
-            // 오른쪽 경계 갱신
-            if (i + P[i] > right) {
-                center = i;
-                right = i + P[i];
-            }
+            // 2. 짝수 길이 팰린드롬 (중심이두글자 i, i+1인 경우, 예: "abba")
+            expandAroundCenter(s, i, i + 1);
         }
 
-        // 최대 길이와 중심 위치 찾기
-        int maxLen = 0;
-        int centerIndex = 0;
-        for (int i = 1; i < n - 1; i++) {
-            if (P[i] > maxLen) {
-                maxLen = P[i];
-                centerIndex = i;
-            }
-        }
-
-        // 원래 문자열에서 시작 인덱스 추출
-        int start = (centerIndex - maxLen) / 2;
-        return s.substring(start, start + maxLen);
+        // 최장 팰린드롬 부분 문자열을 원본 문자열에서 잘라서 반환
+        // end는 포함 범위이므로 +1 필요
+        return s.substring(start, end + 1);
     }
 
-    // 입력 문자열 전처리 함수
-    private String preprocess(String s) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("^");
-        for (int i = 0; i < s.length(); i++) {
-            sb.append("#");
-            sb.append(s.charAt(i));
+    // 중심(left, right)을 기준으로 좌우로 팰린드롬 확장하는 함수
+    private void expandAroundCenter(String s, int left, int right) {
+        // 팰린드롬 조건을 만족하는 동안 확장
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
         }
-        sb.append("#$");
-        return sb.toString();
+
+        // while 종료 후에는 범위를 한 칸 초과했으므로 보정
+        left = left + 1;
+        right = right - 1;
+
+        // 현재까지 찾은 팰린드롬보다 더 긴 경우 start/end 갱신
+        if (end - start + 1 < right - left + 1) {
+            start = left;
+            end = right;
+        }
     }
 }
