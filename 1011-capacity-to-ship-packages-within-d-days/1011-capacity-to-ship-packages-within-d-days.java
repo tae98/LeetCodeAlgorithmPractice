@@ -21,7 +21,7 @@ class Solution {
                 // 현재 무게까지 더하면 mid 초과 → 하루 증가
                 if (total + weight > mid) {
                     total = 0;
-                    day += 1;
+                    day ++;
                 }
                 total += weight; // 무게 누적
             }
