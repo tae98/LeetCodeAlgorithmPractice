@@ -21,12 +21,12 @@ class Solution {
                 // 현재 무게까지 더하면 mid 초과 → 하루 증가
                 if (total + weight > mid) {
                     total = 0;
-                    day ++;
+                    day++;
                 }
                 total += weight; // 무게 누적
             }
 
-            // \U0001f3af 일수가 주어진 days보다 적으면 → mid 줄여보기
+            // \U0001f3af 일수가 주어진 days보다 적으면 → mid 줄여보기 (최소한의 무계를 구해야하니까)
             if (day <= days) {
                 right = mid;
             } else {
