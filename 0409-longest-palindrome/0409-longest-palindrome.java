@@ -1,19 +1,19 @@
 class Solution {
     public int longestPalindrome(String s) {
         // 각 문자의 출현 횟수를 저장할 map
-        HashMap<Character, Integer> map = new HashMap<>();
+        int[] arr = new int[128];
         int ans = 0;
 
         // 문자 빈도 계산
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            map.put(c, map.getOrDefault(c, 0) + 1);
+            arr[c]++; 
         }
 
         boolean hasOdd = false;  // 홀수 개수가 존재하는지 여부
 
         // 각 문자 빈도 기준으로 처리
-        for (Integer val : map.values()) {
+        for (int val : arr) {
             if (val % 2 == 0) {
                 ans += val;           // 짝수면 전부 사용
             } else {
