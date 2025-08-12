@@ -13,49 +13,34 @@
  *     }
  * }
  */
+
 class Solution {
-    public int countNodes(TreeNode root) {
-        int left = 0, h = 0;
-        TreeNode node = root;
-        while(node != null){
+
+    // 왼쪽 끝으로만 내려가면서 높이 계산
+    public int getHeight(TreeNode tree) {
+        int h = 0;
+        while (tree != null) {
             h++;
-            node = node.left;
+            tree = tree.left;
         }
-        if (h == 0){
-            return 0;} 
-        else if(h == 1){
-            return 1;
-        }
-
-        int right = (1 << (h -1)) - 1;
-
-        while(left <= right){
-            int mid = left + (right - left) / 2;
-            if(exists(mid, h, root)){
-                left = mid +1;
-            }else{
-                right = mid -1;
-            }
-        }
-        return ((1 << (h - 1)) - 1) + left;
+        return h;
     }
 
-    // Solution 클래스 내부에 추가
-    private boolean exists(int idx, int h, TreeNode node) {
-        // 마지막 레벨의 이진탐색 구간
-        int left = 0, right = (1 << (h - 1)) - 1;
+    public int countNodes(TreeNode root) {
+        if (root == null) return 0; // 빈 트리 예외 처리
 
-        // 위에서 아래로 (h-1)층 내려가며 경로 확인
-        for (int i = h - 2; i >= 0 && node != null; i--) {
-            int mid = left + (right - left) / 2;
-            if (idx <= mid) { // 왼쪽 절반이면 왼쪽 자식
-                node = node.left;
-                right = mid;
-            } else { // 오른쪽 절반이면 오른쪽 자식
-                node = node.right;
-                left = mid + 1;
-            }
+        int leftSubtreeHeight = getHeight(root.left);
+        int rightSubtreeHeight = getHeight(root.right);
+
+        // 왼쪽 서브트리 높이 == 오른쪽 서브트리 높이
+        // → 왼쪽 서브트리가 포화 → 노드 수 = 2^leftH + 오른쪽 서브트리 노드 수
+        if (leftSubtreeHeight == rightSubtreeHeight) {
+            return (1 << leftSubtreeHeight) + countNodes(root.right);
         }
-        return node != null; // 끝까지 내려가서 null 아니면 존재
+        // 왼쪽 높이 > 오른쪽 높이
+        // → 오른쪽 서브트리가 포화 → 노드 수 = 2^rightH + 왼쪽 서브트리 노드 수
+        else {
+            return (1 << rightSubtreeHeight) + countNodes(root.left);
+        }
     }
 }
