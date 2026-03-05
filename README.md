@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0001-two-sum/) | Easy |
 | [0066-plus-one](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0066-plus-one/) | Easy |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
 ## Math
@@ -15,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0001-two-sum/) | Easy |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
