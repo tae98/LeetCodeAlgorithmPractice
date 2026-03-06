@@ -14,11 +14,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0013-roman-to-integer/) | Easy |
 | [0066-plus-one](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0066-plus-one/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0001-two-sum/) | Easy |
+| [0013-roman-to-integer](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0013-roman-to-integer/) | Easy |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -31,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
 | [0344-reverse-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0344-reverse-string/) | Easy |
 ## Trie
