@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
+| [0053-maximum-subarray](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0053-maximum-subarray/) | Medium |
 | [0066-plus-one](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0066-plus-one/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
@@ -43,5 +44,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0053-maximum-subarray/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0053-maximum-subarray/) | Medium |
 <!---LeetCode Topics End-->
