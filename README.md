@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0001-two-sum/) | Easy |
+| [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
 | [0066-plus-one](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0066-plus-one/) | Easy |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
 ## Math
@@ -29,5 +30,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
 | [0344-reverse-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0344-reverse-string/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
