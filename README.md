@@ -22,4 +22,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0344-reverse-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0344-reverse-string/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0344-reverse-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0344-reverse-string/) | Easy |
 <!---LeetCode Topics End-->
