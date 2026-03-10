@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
+| [0027-remove-element](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0027-remove-element/) | Easy |
 | [0053-maximum-subarray](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0053-maximum-subarray/) | Medium |
 | [0066-plus-one](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0066-plus-one/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0027-remove-element](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0027-remove-element/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0344-reverse-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0344-reverse-string/) | Easy |
 ## String
