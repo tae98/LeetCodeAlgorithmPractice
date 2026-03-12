@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0013-roman-to-integer](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0013-roman-to-integer/) | Easy |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
+| [0438-find-all-anagrams-in-a-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0014-longest-common-prefix/) | Easy |
 | [0344-reverse-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0344-reverse-string/) | Easy |
+| [0438-find-all-anagrams-in-a-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -75,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
