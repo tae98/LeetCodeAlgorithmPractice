@@ -94,8 +94,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0155-min-stack/) | Medium |
+| [0225-implement-stack-using-queues](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0225-implement-stack-using-queues/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0155-min-stack/) | Medium |
+| [0225-implement-stack-using-queues](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0225-implement-stack-using-queues/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0225-implement-stack-using-queues](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0225-implement-stack-using-queues/) | Easy |
 <!---LeetCode Topics End-->
