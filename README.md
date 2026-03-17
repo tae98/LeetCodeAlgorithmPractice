@@ -93,4 +93,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0155-min-stack](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0155-min-stack/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
