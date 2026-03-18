@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0217-contains-duplicate](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0217-contains-duplicate/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0643-maximum-average-subarray-i/) | Easy |
+| [0739-daily-temperatures](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0739-daily-temperatures/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Math
 | Problem Name | Difficulty |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0739-daily-temperatures](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0739-daily-temperatures/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -104,4 +106,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0225-implement-stack-using-queues/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/tae98/LeetCodeAlgorithmPractice/tree/main/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
